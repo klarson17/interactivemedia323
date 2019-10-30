@@ -18,8 +18,8 @@ body {
     -webkit-column-gap: 50px; /* Chrome, Safari, Opera */
     -moz-column-gap: 50px; /* Firefox */
     column-gap: 50px;
-    -webkit-column-rule: 4px dotted DarkGreen; /* Chrome, Safari, Opera */
-    -moz-column-rule: 4px dotted DarkGreen; /* Firefox */
+    -webkit-column-rule: 4px dotted LightSalmon; /* Chrome, Safari, Opera */
+    -moz-column-rule: 4px dotted LightSalmon; /* Firefox */
     column-rule: 4px dotted LightSalmon;
 }
 
