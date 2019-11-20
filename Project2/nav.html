@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ghost of My Past</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Big+Shoulders+Text&display=swap" rel="stylesheet">
+
+	<style type="text/css">
+
+		body{
+			background: rgb(0,0,0);
+			background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(82,82,82,1) 72%, rgba(147,147,147,1) 100%);
+		}
+
+		.sun{
+			background: #FAF5B0;
+			height:150px;
+			width:150px;
+			border-radius: 50%;
+			filter:blur(20px);
+			position: absolute;
+			top:100px;
+			left:150px;
+			animation: pulse 2s infinite;
+  			animation-timing-function: linear;
+		}
+
+		.sun:hover{
+			background: #FAF5B0;
+			filter: blur(20px);
+		}
+
+	@keyframes pulse {
+		  0% {
+		    color: #FAF5B0;
+		  }
+		  100% {
+		    color: #FBF794;
+  }
+}
+
+		.number{
+			color: #FAF5B0;
+			font:font-family: 'Big Shoulders Text', cursive;
+			filter: blur(2px);
+			font-size: 30px;
+			position: absolute;
+			text-decoration: none;
+		}
+
+		.number:hover{
+			color:#FAF5B0;
+			filter: blur(0px);
+			text-decoration: none;
+			font-weight: bold;
+		}
+
+
+		.author{
+			color: darkgrey;
+			font:font-family: 'Big Shoulders Text', cursive;
+			filter: blur(2px);
+			font-size: 30px;
+			position: absolute;
+			text-align: right;
+			top:900px;
+			margin-left:80%;
+		}
+
+		.author:hover{
+			color:black;
+			filter: blur(0px);
+		}
+
+		.pos1{
+			top:150px;
+			left: 200px;
+			  animation-name: move1;
+			  animation-duration: 1s;
+			  animation-fill-mode: forwards;
+			  animation-delay: 0s;
+		}
+
+		.pos2{
+			top:150px;
+			left:200px;
+			  animation-name: move2;
+			  animation-duration: 1.5s;
+			  animation-fill-mode: forwards;
+			  animation-delay: 0s;
+		}
+
+		.pos3{
+			top:150px;
+			left: 200px;
+			  animation-name: move3;
+			  animation-duration: 2s;
+			  animation-fill-mode: forwards;
+			  animation-delay: 0s;
+		}
+
+		.pos4{
+			top: 45px;
+			left: 875px;
+			  animation-name: move4;
+			  animation-duration: 2.5s;
+			  animation-fill-mode: forwards;
+			  animation-delay: 0s;
+		}
+
+		.pos5{
+			top: 35px;
+			left: 1100px;
+				 animation-name: move5;
+			  animation-duration: 3s;
+			  animation-fill-mode: forwards;
+			  animation-delay: 0s;
+		}
+
+		.pos6{
+			 animation-name: move6;
+			  animation-duration: 1s;
+			  animation-fill-mode: forwards;
+			  animation-delay: 0s;
+			top: 175px;
+			left: 375px;
+		}
+
+		.pos7{
+			top:185px;
+			left:575px;
+						  animation-name: move7;
+			  animation-duration: 1.5s;
+			  animation-fill-mode: forwards;
+			  animation-delay: 0s;
+		}
+
+		.pos8{
+			top:195px;
+			left:800px;
+						  animation-name: move8;
+			  animation-duration: 2s;
+			  animation-fill-mode: forwards;
+			  animation-delay: 0s;
+		}
+
+		.pos9{
+			top:205px;
+			left:1050px;
+						  animation-name: move9;
+			  animation-duration: 2.5s;
+			  animation-fill-mode: forwards;
+			  animation-delay: 0s;
+		}
+
+		.pos10{
+			top:215px;
+			left:1325px;
+						  animation-name: move10;
+			  animation-duration: 3s;
+			  animation-fill-mode: forwards;
+			  animation-delay: 0s;
+		}
+
+		.pos11{
+			top:250px;
+			left:350px;
+						  animation-name: move11;
+			  animation-duration: 1s;
+			  animation-fill-mode: forwards;
+			  animation-delay: 0s;
+		}
+
+		.pos12{
+			top: 300px;
+			left:500px;
+						  animation-name: move12;
+			  animation-duration: 1.5s;
+			  animation-fill-mode: forwards;
+			  animation-delay: 0s;
+		}
+
+		.pos13{
+			top:350px;
+			left:675px;
+						  animation-name: move13;
+			  animation-duration: 2s;
+			  animation-fill-mode: forwards;
+			  animation-delay: 0s;
+		}
+
+		.pos14{
+			top:400px;
+			left:875px;
+						  animation-name: move14;
+			  animation-duration: 2.5s;
+			  animation-fill-mode: forwards;
+			  animation-delay: 0s;
+		}
+
+		.pos15{
+			top:450px;
+			left:1100px;
+						  animation-name: move15;
+			  animation-duration: 3s;
+			  animation-fill-mode: forwards;
+			  animation-delay: 0s;
+		}
+
+		.pos16{
+			top:300px;
+			left:250px;
+						  animation-name: move16;
+			  animation-duration: 1s;
+			  animation-fill-mode: forwards;
+			  animation-delay: 0s;
+		}
+
+		.pos17{
+			top:375px;
+			left:350px;
+						  animation-name: move17;
+			  animation-duration: 1.5s;
+			  animation-fill-mode: forwards;
+			  animation-delay: 0s;
+		}
+
+		.pos18{
+			top:400px;
+			left:475px;
+						  animation-name: move18;
+			  animation-duration: 2s;
+			  animation-fill-mode: forwards;
+			  animation-delay: 0s;
+		}
+
+		.pos19{
+			top:675px;
+			left:725px;
+						  animation-name: move19;
+			  animation-duration: 2.5s;
+			  animation-fill-mode: forwards;
+			  animation-delay: 0s;
+		}
+
+		.pos20{
+			top:825px;
+			left:950px;
+						  animation-name: move20;
+			  animation-duration: 3s;
+			  animation-fill-mode: forwards;
+			  animation-delay: 0s;
+		}
+
+		.pos21{
+			top: 300px;
+			left: 160px;
+						  animation-name: move21;
+			  animation-duration: 1s;
+			  animation-fill-mode: forwards;
+			  animation-delay: 0s;
+		}
+
+		.pos22{
+			top:425px;
+			left: 180px;
+						  animation-name: move22;
+			  animation-duration: 1.5s;
+			  animation-fill-mode: forwards;
+			  animation-delay: 0s;
+		}
+
+		.pos23{
+			top:565px;
+			left: 200px;
+						  animation-name: move23;
+			  animation-duration: 2s;
+			  animation-fill-mode: forwards;
+			  animation-delay: 0s;
+		}
+
+		.pos24{
+			top:715px;
+			left:220px;
+						  animation-name: move24;
+			  animation-duration: 2.5s;
+			  animation-fill-mode: forwards;
+			  animation-delay: 0s;
+		}
+
+		.pos25{
+			top:865px;
+			left:240px;
+						  animation-name: move25;
+			  animation-duration: 3s;
+			  animation-fill-mode: forwards;
+			  animation-delay: 0s;
+		}
+
+	@keyframes move1 {
+	  from {    top:150px;
+			left:200px;
+	}
+	  to { 	top:75px;
+			left: 350px; }
+	}
+
+	@keyframes move2 {
+  	from {    top:150px;
+  			left: 200px;
+	}
+  		to { top:65px;
+			left:500px;}
+}
+
+		@keyframes move3 {
+  	from {    top:150px;
+  			left: 200px;
+	}
+  		to { top:55px;
+			left: 675px;}
+}
+
+		@keyframes move4 {
+  	from {    top:150px;
+  			left: 200px;
+	}
+  		to { top: 45px;
+			left: 875px;}
+}
+
+		@keyframes move5 {
+  	from {    top:150px;
+  			left: 200px;
+	}
+  		to { top: 35px;
+			left: 1100px;}
+}
+
+		@keyframes move6 {
+  	from {    top:150px;
+  			left: 200px;
+	}
+  		to { top: 175px;
+			left: 375px;}
+}
+
+		@keyframes move7 {
+  	from {    top:150px;
+  			left: 200px;
+	}
+  		to { top:185px;
+			left:575px;}
+}
+
+		@keyframes move8 {
+  	from {    top:150px;
+  			left: 200px;
+	}
+  		to { top:195px;
+			left:800px;}
+}
+
+		@keyframes move9 {
+  	from {    top:150px;
+  			left: 200px;
+	}
+  		to { top:205px;
+			left:1050px;}
+}
+
+		@keyframes move10 {
+  	from {    top:150px;
+  			left: 200px;
+	}
+  		to { top:215px;
+			left:1325px;}
+}
+
+		@keyframes move11 {
+  	from {    top:150px;
+  			left: 200px;
+	}
+  		to { top:250px;
+			left:350px;}
+}
+
+		@keyframes move12 {
+  	from {    top:150px;
+  			left: 200px;
+	}
+  		to { top: 300px;
+			left:500px;}
+}
+
+		@keyframes move13 {
+  	from {    top:150px;
+  			left: 200px;
+	}
+  		to { top:350px;
+			left:675px;}
+}
+
+		@keyframes move14 {
+  	from {    top:150px;
+  			left: 200px;
+	}
+  		to { top:400px;
+			left:875px;}
+}
+
+		@keyframes move15 {
+  	from {    top:150px;
+  			left: 200px;
+	}
+  		to { top:450px;
+			left:1100px;}
+}
+
+		@keyframes move16 {
+  	from {    top:150px;
+  			left: 200px;
+	}
+  		to { top:300px;
+			left:250px;}
+}
+
+		@keyframes move17 {
+  	from {    top:150px;
+  			left: 200px;
+	}
+  		to { top:375px;
+			left:350px;}
+}
+
+		@keyframes move18 {
+  	from {    top:150px;
+  			left: 200px;
+	}
+  		to { top:500px;
+			left:475px;}
+}
+
+		@keyframes move19 {
+  	from {    top:150px;
+  			left: 200px;
+	}
+  		to { top:675px;
+			left:725px;}
+}
+
+		@keyframes move20 {
+  	from {    top:150px;
+  			left: 200px;
+	}
+  		to { top:825px;
+			left:950px;}
+}
+
+		@keyframes move21 {
+  	from {    top:150px;
+  			left: 200px;
+	}
+  		to { top: 300px;
+			left: 160px;}
+}
+
+		@keyframes move22 {
+  	from {    top:150px;
+  			left: 200px;
+	}
+  		to { top:425px;
+			left: 180px;}
+}
+
+		@keyframes move23 {
+  	from {    top:150px;
+  			left: 200px;
+	}
+  		to { top:565px;
+			left: 200px;}
+}
+
+		@keyframes move24 {
+  	from {    top:150px;
+  			left: 200px;
+	}
+  		to { top:715px;
+			left:220px;}
+}
+
+		@keyframes move25 {
+  	from {    top:150px;
+  			left: 200px;
+	}
+  		to { top:865px;
+			left:240px;}
+}
+		
+
+	</style>
+</head>
+<body>
+
+	<div>
+		<a href="clicknav.html" class="sun"></a>
+	</div>
+
+
+	<div>
+		<a href="index1.1.html" class="number pos1">1
+	</div>
+
+	<div>
+		<a href="index1.2.html"class="number pos2">2</a>
+	</div>
+
+	<div>
+		<a href="index1.3.html"class="number pos3">3</a>
+	</div>
+
+	<div>
+		<a href="index1.4.html" class="number pos4">4</a>
+	</div>
+
+	<div>
+		<a href="index1.5.html" class="number pos5">5</a>
+	</div>
+
+	<div>
+		<a href="index2.1.html"class="number pos6">1</a>
+	</div>
+
+	<div>
+		<a href="index2.2.html" class="number pos7">2</a>
+	</div>
+
+	<div>
+		<a href="index2.3.html" class="number pos8">3</a>
+	</div>
+
+	<div>
+		<a href="index2.4.html" class="number pos9">4</a>
+	</div>
+
+	<div>
+		<a href="index2.5.html" class="number pos10">5</a>
+	</div>
+
+	<div>
+		<a href="index3.1.html" class="number pos11">1</a>
+	</div>
+
+	<div>
+		<a href="index3.2.html" class="number pos12">2</a></div>
+
+	<div>
+		<a href="index3.3.html"class="number pos13">3</a>
+	</div>
+
+	<div>
+		<a href="index3.4.html" class="number pos14">4</a>
+	</div>
+
+	<div>
+		<a href="index3.5.html" class="number pos15">5</a>
+	</div>
+
+	<div>
+		<a href="index4.1.html" class="number pos16">1</a>
+	</div>
+
+	<div>
+		<a href="index4.2.html" class="number pos17">2</a>
+	</div>
+
+	<div>
+		<a href="index4.3.html" class="number pos18">3</a>
+	</div>
+
+	<div>
+		<a href="index4.4.html" class="number pos19">4</a>
+	</div>
+
+	<div>
+		<a href="index4.5.html"class="number pos20">5</a>
+	</div>
+
+	<div>
+		<a href="index5.1.html" class="number pos21">1</a>
+	</div>
+
+	<div>
+		<a href="index5.2.html" class="number pos22">2</a>
+	</div>
+
+	<div>
+		<a href="index5.3.html" class="number pos23">3</a>
+	</div>
+
+	<div>
+		<a href="index5.4.html" class="number pos24">4</a>
+	</div>
+
+	<div>
+		<a href="index5.5.html" class="number pos25">5</a>
+	</div>
+
+
+<div class="author"><em>The Ghost of My Past</em><br>
+	Lee W. Baker</div>
+
+
+</body>
+</html>

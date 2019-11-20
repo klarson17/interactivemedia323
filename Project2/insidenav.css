@@ -1,0 +1,67 @@
+.nav{
+	color:white;
+	font-family: 'Big Shoulders Text', cursive;
+	filter: blur(2px);
+	font-size: 25px;
+	letter-spacing: 2px;
+	height: 25px;
+	width:200px;
+	background: lightgrey;
+	padding:10px 10px 15px 10px;
+	text-align:center;
+	position:fixed;
+	margin-left: 80%;
+	bottom:1150px;
+}
+
+.nav:hover{
+	filter: blur(0px);
+	text-decoration: none;
+}
+
+.nav2{
+	color:white;
+	font-family: 'Big Shoulders Text', cursive;
+	filter: blur(2px);
+	font-size: 25px;
+	letter-spacing: 2px;
+	height: 25px;
+	width:200px;
+	background: lightgrey;
+	padding:10px 10px 15px 10px;
+	text-align:center;
+	position: fixed;
+	bottom:1150px;
+	margin-left:40%;
+}
+
+.nav2:hover{
+	text-decoration: none;
+	filter: blur(0px);
+}
+	.noDecoration, a:link, a:visited {
+    text-decoration: none;
+    color:white;
+}
+
+.nav3{
+	color:white;
+	font-family: 'Big Shoulders Text', cursive;
+	filter: blur(2px);
+	font-size: 25px;
+	letter-spacing: 2px;
+	height: 25px;
+	width:200px;
+	background: lightgrey;
+	padding:10px 10px 15px 10px;
+	text-align:center;
+	position:fixed;
+	bottom:1150px;
+	margin-left:80%px;
+	left:1500px;
+}
+
+.nav3:hover{
+	filter: blur(0px);
+	text-decoration: none;
+}

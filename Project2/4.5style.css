@@ -1,0 +1,32 @@
+body{
+	background: black
+}
+
+.whitebox {
+	background: white;
+	height: 230%;
+	width: 50%;
+	position: absolute;
+	top: 0%;
+	right: 0%
+}
+
+.style1{
+	font-family: 'Work Sans', sans-serif;
+	font-size:40px;
+	color:white;
+	position: relative;
+	left:75px;
+	text-transform:uppercase;
+	letter-spacing: 5px;
+}
+
+.style2{
+	font-family: 'Work Sans', sans-serif;
+	font-size: 40px;
+	position:relative;
+	left:75px;
+	top: 75px;
+	text-transform:uppercase;
+	letter-spacing: 5px;
+}
