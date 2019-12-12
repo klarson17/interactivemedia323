@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Exo+2:200&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+	
+	<style type="text/css">
+		body{
+			background: #C3C3A5;
+		}
+
+		.text{
+			color: #FCFED9;
+			font-family: 'Exo 2', sans-serif;
+			font-size: 30px;
+			width: 700px;
+			position: relative;
+			margin-left: 10%;
+			top:150px;
+		}
+
+		.link{
+			text-decoration: none;
+			animation: pulse1 2s infinite;
+  			animation-timing-function: linear;
+  			text-shadow: 0 0 3px white;
+  			font-weight: bold;
+		}
+
+		@keyframes pulse1 {
+		  0% {
+		    color: white;
+		  }
+		  100% {
+		    color: #FBF794;
+  }
+}
+
+		.blow{
+			position: relative;
+			top:100px;
+			margin-left: 40%;
+			font-size: 400px;
+			font-family: 'Anton', sans-serif;
+			animation-timing-function: linear;
+			-webkit-animation: rotate-center 0.5s ease-in-out both;
+	        animation: rotate-center 0.6s ease-in-out both;
+		}
+
+		@-webkit-keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+			from{
+				font-size: 10px;
+			}
+			to{
+				font-size: 400px;
+			}
+		}
+
+
+	</style>
+</head>
+<body>
+
+<div class="text"> Don't give up, though the pace seems slow -</div>
+
+<div class="text"> You may succeed with another</div>
+
+<div class="blow"><a href="1.9.html" class="link">blow.</a></div>
+
+</body>
+</html>

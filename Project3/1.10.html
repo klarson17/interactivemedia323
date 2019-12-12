@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Exo+2:200&display=swap" rel="stylesheet">
+
+	<style type="text/css">
+
+		body{
+			background: #FED092;
+		}
+
+		.text{
+			color: #FAA83C;
+			font-family: 'Exo 2', sans-serif;
+			font-size: 40px;
+			width:450px;
+			position: relative;
+			top: 50px;
+			left: 5%;
+			filter: blur(2px);
+			-webkit-animation:blur 2s;
+		}
+
+		@keyframes blur{
+			from{
+				filter: blur(0px);
+			}
+			to{
+				filter: blur(2px);
+			}
+		}
+
+		.text2{
+			color: #FAA83C;
+			font-family: 'Exo 2', sans-serif;
+			font-size: 40px;
+			width:450px;
+			position: absolute;
+			top: 400px;
+			left: 65%;
+			text-align: right;
+			-webkit-animation: fadein 2s;
+		}
+
+		@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+		.link{
+			text-decoration: none;
+			animation: pulse1 2s infinite;
+  			animation-timing-function: linear;
+  			text-shadow: 0 0 3px white;
+  			font-weight: bold;
+		}
+
+		@keyframes pulse1 {
+		  0% {
+		    color: white;
+		  }
+		  100% {
+		    color: #FBF794;
+  }
+}
+
+		
+	</style>
+</head>
+<body>
+	<div class="text">So stick to the <a href="1.10.html" class="link">fight</a> when you're hardest hit -</div>
+
+	<div class="text2">It's when things seem worst that you <a href="1.11.html" class="link"> musn't quit</a>.</div>
+</body>
+</html>

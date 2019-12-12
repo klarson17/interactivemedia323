@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Exo+2:200&display=swap" rel="stylesheet">
+	<style type="text/css">
+		body{
+			background: #C3C3A5;
+		}
+
+		.text{
+			color: #FCFED9;
+			font-family: 'Exo 2', sans-serif;
+			font-size: 30px;
+			width: 700px;
+			position: relative;
+			margin-left: 10%;
+			top:150px;
+			filter: blur(1px);
+			-webkit-animation: blur 2s;
+		}
+
+@keyframes blur {
+    from { filter: blur(0px);: 0; }
+    to   { filter: blur(1px);: 1; }
+}
+
+		.text2{
+			color: #FCFED9;
+			font-family: 'Exo 2', sans-serif;
+			font-size: 30px;
+			width: 300px;
+			position: relative;
+			margin-left: 10%;
+			top:100px;
+			-webkit-animation: fadein 2s;
+		}
+
+		@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+		.link{
+			text-decoration: none;
+			animation: pulse1 2s infinite;
+  			animation-timing-function: linear;
+  			text-shadow: 0 0 3px white;
+  			font-weight: bold;
+		}
+
+		@keyframes pulse1 {
+		  0% {
+		    color: white;
+		  }
+		  100% {
+		    color: #FBF794;
+  }
+}
+
+
+	</style>
+</head>
+<body>
+
+<div class="text2">Working through the pain of having been hurt is anything but easy, but day by day, it becomes more and more <a href="2.11.html" class="link">possible.</a></div>
+
+</body>
+</html>
